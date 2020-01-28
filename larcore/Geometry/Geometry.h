@@ -147,7 +147,7 @@ namespace geo {
 
 } // namespace geo
 
-DECLARE_ART_SERVICE(geo::Geometry, LEGACY)
+DECLARE_ART_SERVICE(geo::Geometry, SHARED)
 
 // check that the requirements for geo::Geometry are satisfied
 template struct lar::details::ServiceRequirementsChecker<geo::Geometry>;

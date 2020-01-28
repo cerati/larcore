@@ -62,7 +62,7 @@ namespace geo
 
 }
 DECLARE_ART_SERVICE_INTERFACE_IMPL(
-  geo::StandardGeometryHelper, geo::ExptGeoHelperInterface, LEGACY
+  geo::StandardGeometryHelper, geo::ExptGeoHelperInterface, SHARED
   )
 
 #endif // GEO_StandardGeometryHelper_h

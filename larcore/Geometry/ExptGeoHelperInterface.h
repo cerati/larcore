@@ -117,7 +117,7 @@ namespace geo
   }
 }
 
-DECLARE_ART_SERVICE_INTERFACE(geo::ExptGeoHelperInterface, LEGACY)
+DECLARE_ART_SERVICE_INTERFACE(geo::ExptGeoHelperInterface, SHARED)
 
 #endif // GEO_ExptGeoHelperInterface_h
 
